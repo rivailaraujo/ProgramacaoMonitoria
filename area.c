@@ -14,7 +14,7 @@ int main() {
     quadrado = B*B;
     retangulo = A*B;
 
-    printf("TRINGULO: %.3lf\n", triangulo);
+    printf("TRIANGULO: %.3lf\n", triangulo);
     printf("CIRCULO: %.3lf\n", circulo);
     printf("TRAPEZIO: %.3lf\n", trapezio);
     printf("QUADRADO: %.3lf\n", quadrado);
