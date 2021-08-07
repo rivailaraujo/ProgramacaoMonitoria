@@ -66,7 +66,7 @@ public class TelaInicial extends JFrame {
 		btnCrditos.addMouseListener(new MouseAdapter() {
 			
 			public void mouseClicked(MouseEvent e) {
-				JOptionPane.showMessageDialog(btnCrditos, "Um Jogo de: Emanuella Taiana, Colega1, Colega2");
+				JOptionPane.showMessageDialog(btnCrditos, "Um Jogo de: Emanuella Taiana, Ramon Barbosa, Savia Almeida");
 			}
 		});
 		
@@ -81,7 +81,7 @@ public class TelaInicial extends JFrame {
 		contentPane.add(lblBaralho);
 		
 		JLabel imagemFundo = new JLabel("");
-		imagemFundo.setIcon(new ImageIcon("/home/rivail/Imagens/baralho.jpg")); //endereço da imagem maquina local
+		imagemFundo.setIcon(new ImageIcon("/home/emanuella/Imagens/baralho.jpg")); //endereço da imagem maquina local
 		imagemFundo.setBounds(0, -15, 627, 457);
 		contentPane.add(imagemFundo);
 	}
